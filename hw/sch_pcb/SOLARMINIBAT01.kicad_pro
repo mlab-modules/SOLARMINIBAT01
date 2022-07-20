@@ -442,6 +442,10 @@
     [
       "57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd",
       "battery_pack"
+    ],
+    [
+      "6044c252-cae8-4c38-b9d6-66858f0fde85",
+      "power_input"
     ]
   ],
   "text_variables": {}
