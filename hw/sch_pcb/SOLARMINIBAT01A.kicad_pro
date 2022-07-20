@@ -446,6 +446,10 @@
     [
       "6044c252-cae8-4c38-b9d6-66858f0fde85",
       "power_input"
+    ],
+    [
+      "e5c56c21-dab7-496c-84fa-c1ab8ff603a2",
+      "power_output"
     ]
   ],
   "text_variables": {}

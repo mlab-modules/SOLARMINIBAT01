@@ -1,0 +1,73 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 410db63c-270b-422b-8f37-e12819877e76)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "LION2CELL01D-rescue:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (id 1) (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (hierarchical_label "battery_power" (shape input) (at 80.01 83.82 180)
+    (effects (font (size 1.524 1.524)) (justify right))
+    (uuid 352298b9-b4a0-4b4b-8c10-c94a78e2c466)
+  )
+
+  (symbol (lib_id "LION2CELL01D-rescue:+3.3V") (at 137.795 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 8978ecad-f5ee-49cb-83ae-4d2492251aba)
+    (property "Reference" "#PWR?" (id 0) (at 137.795 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 138.2522 41.9354 0))
+    (property "Footprint" "" (id 2) (at 137.795 46.355 0))
+    (property "Datasheet" "" (id 3) (at 137.795 46.355 0))
+    (pin "1" (uuid e8101eaf-70b3-4af8-8302-49a0c0938c72))
+  )
+)
