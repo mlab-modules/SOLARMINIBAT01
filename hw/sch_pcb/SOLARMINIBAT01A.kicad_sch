@@ -50,6 +50,15 @@
   (no_connect (at 243.205 22.86) (uuid 76434228-b985-4816-822f-e5c4d2f7ee6e))
   (no_connect (at 253.365 22.86) (uuid 7c8335c7-c838-4baa-9e1e-5926de6c9890))
 
+  (wire (pts (xy 129.54 89.535) (xy 129.54 105.41))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7e240cf3-076a-48ed-890a-b9927c69fd19)
+  )
+  (wire (pts (xy 114.3 89.535) (xy 114.3 105.41))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid fa4ef2f7-6bcc-4c5c-ad08-735744adece6)
+  )
+
   (symbol (lib_id "MLAB_MECHANICAL:HOLE") (at 243.205 21.59 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 075fa0cc-d92e-4bbf-9a22-86ed603cfd1d)
@@ -168,6 +177,14 @@
     (property "Sheet file" "fuel_gauge.kicad_sch" (id 1) (at 100.33 133.9346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (pin "Battery-" input (at 129.54 105.41 90)
+      (effects (font (size 1.524 1.524)) (justify right))
+      (uuid 2d9d67f5-bf08-4692-ac92-cd68467c4567)
+    )
+    (pin "Battery+" input (at 114.3 105.41 90)
+      (effects (font (size 1.524 1.524)) (justify right))
+      (uuid 440e7609-c641-4847-8f4b-74764be328ff)
+    )
   )
 
   (sheet_instances
@@ -199,7 +216,7 @@
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/4e3e488e-73f3-48fc-a9b2-7e25f8694a0a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/4ebcb038-ed6f-418f-b723-8d00834831bd"
+    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/62df70fb-4e53-4c17-8714-768cf1e1515d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/668bbc97-4f2b-4ba2-850c-820865cd60f5"
@@ -223,6 +240,9 @@
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/9b2144e5-e150-4e36-8dd0-57044a8430ca"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/abba4e23-d87a-40b0-af85-0dd431cce3cf"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/b5160f60-99a6-4a11-81ca-7fbd8c16f063"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -231,6 +251,9 @@
     )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/c5918f68-fd05-463b-b88d-97e909c99ea2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/c622d264-9ce6-4134-9dc7-1b35c55869d0"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/d66225d6-89ff-4507-a881-52e05f4653d6"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -334,15 +357,6 @@
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/9fed77df-5dd0-4260-937e-4b5ada4dfead"
       (reference "D?") (unit 1) (value "ORAGE") (footprint "Mlab_D:LED_1206")
     )
-    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/203c39d5-3245-4502-8b8e-5d04d2ce68cf"
-      (reference "J?") (unit 1) (value "JUMP_2x1") (footprint "Mlab_Pin_Headers:Straight_1x02")
-    )
-    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/5082e2ca-7df8-48ae-a1b0-8847ed874b82"
-      (reference "J?") (unit 1) (value "JUMP_2x1") (footprint "Mlab_Pin_Headers:Straight_1x02")
-    )
-    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/50e8f211-a19b-4d6f-a7b8-00aec520100e"
-      (reference "J?") (unit 1) (value "JUMP_2x1") (footprint "Mlab_Pin_Headers:Straight_1x02")
-    )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/5d8562eb-d038-4182-83e5-3d540ae1b907"
       (reference "J?") (unit 1) (value "WAGO 256 BLUE") (footprint "Mlab_CON:WAGO256")
     )
@@ -351,9 +365,6 @@
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/926aa293-903a-4deb-b868-193fd652e033"
       (reference "J?") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/da59c663-037a-4c14-98ec-72a07b2de130"
-      (reference "J?") (unit 1) (value "JUMP_2x1") (footprint "Mlab_Pin_Headers:Straight_1x02")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/faf597ca-e145-472d-8b8e-fd99f24dc91f"
       (reference "L?") (unit 1) (value "10uH - DE1205-10") (footprint "Mlab_L:DE1205-10")
@@ -369,6 +380,9 @@
     )
     (path "/faa3adc5-c442-4680-9931-caa7d0963b30"
       (reference "M?") (unit 1) (value "HOLE") (footprint "Mlab_Mechanical:MountingHole_3mm")
+    )
+    (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/a784774c-c917-4510-97a6-fef1071a76f3"
+      (reference "P?") (unit 1) (value "HEADER_2x05_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_2x05")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/13dbe897-417b-43d0-a751-d9a5fbcdfe5e"
       (reference "R?") (unit 1) (value "-") (footprint "Resistor_SMD:R_0805_2012Metric")
