@@ -442,6 +442,10 @@
     [
       "57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd",
       "battery_pack"
+    ],
+    [
+      "ef7f2b1f-0177-4aed-be24-6dbc4caae0c3",
+      "solar_converter"
     ]
   ],
   "text_variables": {}
