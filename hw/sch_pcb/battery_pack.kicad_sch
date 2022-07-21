@@ -5,7 +5,10 @@
   (paper "A4")
 
   (title_block
+    (title "SOLARMINIBAT01A")
     (date "2022-07-20")
+    (rev "A")
+    (company "MLAB.cz")
     (comment 2 "Solar charged LTO Battery Managment System")
   )
 

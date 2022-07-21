@@ -5,7 +5,10 @@
   (paper "A4")
 
   (title_block
+    (title "SOLARMINIBAT01A")
     (date "2022-07-20")
+    (rev "A")
+    (company "MLAB.cz")
     (comment 2 "Solar charged LTO Battery Managment System")
   )
 
@@ -1248,8 +1251,8 @@
     (property "Footprint" "Mlab_IO:TSSOP-14_4.4x5mm_Pitch0.65mm" (id 2) (at 116.84 84.455 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 116.84 84.455 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq34z100-g1.pdf" (id 3) (at 116.84 84.455 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid 48b13a42-663f-4180-8bba-6ba2c09b656c))
     (pin "10" (uuid e3adbe58-e87f-47aa-b5ad-fad1a663fe63))
@@ -2065,7 +2068,7 @@
     (property "Reference" "R?" (id 0) (at 91.948 80.645 90)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "1k" (id 1) (at 93.8022 80.6704 90)
+    (property "Value" "47k" (id 1) (at 93.8022 80.6704 90)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Mlab_R:SMD-0805" (id 2) (at 95.758 80.645 90)

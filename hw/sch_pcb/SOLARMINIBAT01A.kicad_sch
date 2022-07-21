@@ -513,9 +513,6 @@
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/a784774c-c917-4510-97a6-fef1071a76f3"
       (reference "P?") (unit 1) (value "HEADER_2x05_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_2x05")
     )
-    (path "/e5c56c21-dab7-496c-84fa-c1ab8ff603a2/bdd0b335-10a1-4a58-b644-8a502b93dd0b"
-      (reference "P?") (unit 1) (value "1,1A") (footprint "Mlab_F:1812")
-    )
     (path "/e5c56c21-dab7-496c-84fa-c1ab8ff603a2/00850c2f-ed9c-4a38-825c-79ff3e0e384f"
       (reference "R?") (unit 1) (value "10k") (footprint "")
     )
@@ -592,7 +589,7 @@
       (reference "R?") (unit 1) (value "2K2") (footprint "Mlab_R:SMD-0805")
     )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/f54588e6-e880-4170-84cc-ca29435aa37f"
-      (reference "R?") (unit 1) (value "1k") (footprint "Mlab_R:SMD-0805")
+      (reference "R?") (unit 1) (value "47k") (footprint "Mlab_R:SMD-0805")
     )
     (path "/e5c56c21-dab7-496c-84fa-c1ab8ff603a2/5ce1aa0c-f98f-4b94-80bd-f188cf4c57de"
       (reference "SV?") (unit 1) (value "MA03-2") (footprint "untitled:MA03-2")
