@@ -375,17 +375,11 @@
     (path "/e5c56c21-dab7-496c-84fa-c1ab8ff603a2/5b222cdf-81fa-4c40-a010-145257e96651"
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
-    (path "/57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd/cfb89277-108b-462e-83a0-d4d3a5429d61"
-      (reference "BT1") (unit 1) (value "LTO1865-13") (footprint "")
+    (path "/57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd/e7035d73-d665-4671-9b1d-0b6587080edf"
+      (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
     )
-    (path "/57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd/7da1e62c-6de6-4f93-9fa8-0160e7f393fe"
-      (reference "BT2") (unit 1) (value "LTO1865-13") (footprint "")
-    )
-    (path "/57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd/78d058be-cad6-4e18-9c9f-ff2de3c31deb"
-      (reference "BT3") (unit 1) (value "LTO1865-13") (footprint "")
-    )
-    (path "/57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd/8ef57308-c3a8-4d58-ba4b-5d1c6719b486"
-      (reference "BT4") (unit 1) (value "LTO1865-13") (footprint "")
+    (path "/57fea48e-5c3e-4f84-80e7-cf0f4aa7b3fd/95fb5c36-f8d3-4977-965a-a04e28b02ef4"
+      (reference "BT1") (unit 1) (value "4xLTO18650") (footprint "Mlab_Batery:4XLTO1865V01A")
     )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/56c8302c-2b8e-499e-960d-5850ab4ef20e"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
