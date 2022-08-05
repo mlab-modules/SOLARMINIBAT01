@@ -1316,7 +1316,7 @@
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "Mlab_Pin_Headers:Straight_2x01" (id 2) (at 76.835 76.2 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 76.835 76.2 0)
       (effects (font (size 1.524 1.524)))
