@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|87586000|141771000|6cfdc61e-9238-4bf1-8adc-0aa2afd5e23c|c370671a-9364-4f53-b428-fcdf19d1dd6c",
+        "clearance|87586000|81241000|df4a707f-c422-45b9-846e-5f8beda1b995|a73753d8-f00b-4be9-a8c8-167668e414ea"
+      ],
       "meta": {
         "version": 2
       },
@@ -103,7 +106,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
