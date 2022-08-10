@@ -89,7 +89,7 @@ Defined vias:
 
 Used vias:
 
-- 0.89/0.5 mm (35/20 mils) (Count: 387, Aspect: 1.8 A) defined: no
+- 0.89/0.5 mm (35/20 mils) (Count: 392, Aspect: 1.8 A) defined: no
 
 Holes (excluding vias):
 
