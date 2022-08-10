@@ -261,8 +261,8 @@ jobs:
         git pull --force --rebase || true
         git submodule update --remote || true
 
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v3.0.0
+#    - name: Download a Build Artifact
+#      uses: actions/download-artifact@v3.0.0
     
     - name: Remove old manufarturing data
       run: | 
