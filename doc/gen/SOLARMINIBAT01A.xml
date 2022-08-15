@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/SOLARMINIBAT01A.kicad_sch</source>
-    <date>Mon Aug 15 10:28:11 2022</date>
+    <date>Mon Aug 15 12:44:10 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -847,39 +847,39 @@
       <tstamps>709d4381-1378-4be5-a5d4-2c80a7349246</tstamps>
     </comp>
     <comp ref="R21">
-      <value>0R47</value>
+      <value>0R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
-        <field name="UST_ID">60be2ed51287500165e6c1cd</field>
+        <field name="UST_ID">5c70984712875079b91f8aaf</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="60be2ed51287500165e6c1cd"/>
+      <property name="UST_ID" value="5c70984712875079b91f8aaf"/>
       <property name="Sheetname" value="power_input"/>
       <property name="Sheetfile" value="power_input.kicad_sch"/>
       <sheetpath names="/power_input/" tstamps="/6044c252-cae8-4c38-b9d6-66858f0fde85/"/>
       <tstamps>b8ffcd56-af68-4b28-9981-43312da97a33</tstamps>
     </comp>
     <comp ref="R22">
-      <value>560k</value>
+      <value>110k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8aa6</field>
+        <field name="UST_ID">5e3ffc4a1287502a33bad850</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8aa6"/>
+      <property name="UST_ID" value="5e3ffc4a1287502a33bad850"/>
       <property name="Sheetname" value="power_input"/>
       <property name="Sheetfile" value="power_input.kicad_sch"/>
       <sheetpath names="/power_input/" tstamps="/6044c252-cae8-4c38-b9d6-66858f0fde85/"/>
       <tstamps>eba6a428-b832-49f5-9c79-0ba31f0da3a5</tstamps>
     </comp>
     <comp ref="R23">
-      <value>270k</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8aa0</field>
+        <field name="UST_ID">5c70984712875079b91f8a96</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984712875079b91f8aa0"/>
+      <property name="UST_ID" value="5c70984712875079b91f8a96"/>
       <property name="Sheetname" value="power_input"/>
       <property name="Sheetfile" value="power_input.kicad_sch"/>
       <sheetpath names="/power_input/" tstamps="/6044c252-cae8-4c38-b9d6-66858f0fde85/"/>
