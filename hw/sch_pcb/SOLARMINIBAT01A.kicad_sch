@@ -442,7 +442,7 @@
       (reference "C12") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/16620102-21f5-4f63-9552-7858d19b87a3"
-      (reference "C13") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C13") (unit 1) (value "10uF/6V3") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/51aa741e-68b5-426d-b026-3501c495e15a"
       (reference "C14") (unit 1) (value "47uF/6V3") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -454,7 +454,7 @@
       (reference "C16") (unit 1) (value "47uF/6V3") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/e5c56c21-dab7-496c-84fa-c1ab8ff603a2/0344a337-c9de-4d0b-9b83-add7bbdb8312"
-      (reference "C17") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C17") (unit 1) (value "10uF/6V3") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/e5c56c21-dab7-496c-84fa-c1ab8ff603a2/4f533223-f0aa-4eab-a02d-143d3597cd8c"
       (reference "C18") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -508,7 +508,7 @@
       (reference "J1") (unit 1) (value "HEADER_2x03_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_2x03")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/64b9b534-99f2-40a9-8213-ad8f281b131a"
-      (reference "J2") (unit 1) (value "WAGO 256 RED") (footprint "Mlab_CON:WAGO256")
+      (reference "J2") (unit 1) (value "WAGO 256 ORANGE") (footprint "Mlab_CON:WAGO256")
     )
     (path "/6044c252-cae8-4c38-b9d6-66858f0fde85/5d8562eb-d038-4182-83e5-3d540ae1b907"
       (reference "J3") (unit 1) (value "WAGO 256 BLUE") (footprint "Mlab_CON:WAGO256")
@@ -559,7 +559,7 @@
       (reference "R4") (unit 1) (value "10K NTC") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/6602eb9f-f263-4251-960f-2e4ee6000426"
-      (reference "R5") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/b075bb3d-7c5c-4df8-b663-3672243e2821"
       (reference "R6") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
