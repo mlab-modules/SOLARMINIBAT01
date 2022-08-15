@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/SOLARMINIBAT01A.kicad_sch</source>
-    <date>Mon Aug 15 10:07:42 2022</date>
+    <date>Mon Aug 15 10:28:11 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -431,10 +431,10 @@
       <value>0R01 75PPM</value>
       <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8ab0</field>
+        <field name="UST_ID">5c70984712875079b91f8abf</field>
       </fields>
       <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
-      <property name="UST_ID" value="5c70984712875079b91f8ab0"/>
+      <property name="UST_ID" value="5c70984712875079b91f8abf"/>
       <property name="Sheetname" value="fuel_gauge"/>
       <property name="Sheetfile" value="fuel_gauge.kicad_sch"/>
       <sheetpath names="/fuel_gauge/" tstamps="/aabf0346-8f10-4bb0-86f6-0ff8e72d6db1/"/>
