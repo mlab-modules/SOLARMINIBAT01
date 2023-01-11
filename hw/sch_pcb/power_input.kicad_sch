@@ -1098,7 +1098,7 @@
     (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 122.555 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 122.555 71.12 0)
+    (property "Datasheet" "https://eu.mouser.com/datasheet/2/427/vs_15mq040ntrpbf-1769271.pdf" (id 3) (at 122.555 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "UST_ID" "5c70984512875079b91f88b0" (id 4) (at 122.555 71.12 0)
