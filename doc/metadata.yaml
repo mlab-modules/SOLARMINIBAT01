@@ -8,11 +8,11 @@ images:
 - doc/src/img/IMG_20220821_234041.jpg
 - doc/gen/img/SOLARMINIBAT01A-bottom.png
 - doc/gen/img/SOLARMINIBAT01A-top.png
-- doc/gen/SOLARMINIBAT01A-power_output.svg
-- doc/gen/SOLARMINIBAT01A-schematic.svg
 - doc/gen/SOLARMINIBAT01A-battery_pack.svg
 - doc/gen/SOLARMINIBAT01A-fuel_gauge.svg
+- doc/gen/SOLARMINIBAT01A-power_output.svg
 - doc/gen/SOLARMINIBAT01A-power_input.svg
+- doc/gen/SOLARMINIBAT01A-schematic.svg
 mark: 50
 mod_scheme: doc/gen/SOLARMINIBAT01A-schematic.pdf
 tags: []
