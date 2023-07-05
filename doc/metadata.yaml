@@ -15,5 +15,12 @@ images:
 - doc/gen/SOLARMINIBAT01A-schematic.svg
 mark: 50
 mod_scheme: doc/gen/SOLARMINIBAT01A-schematic.pdf
-tags: []
+tags:
+- mlab
+- mlab-module
+- kicad
+- kicad-pcb
+- kicad-project
+- mlab-kicad
+- pcb
 title: SOLARMINIBAT01
