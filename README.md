@@ -18,7 +18,7 @@ Battery module with [LTO cells](https://files.gwl.eu/inc/_doc/attach/StoItem/701
    *  Standard output voltage 3v3
 
 
-![](doc/src/img/IMG_20220821_234056.jpg)
+![](/doc/src/img/SOLARMINIBAT01_photo01.jpg)
 
 
 ## Schematics
