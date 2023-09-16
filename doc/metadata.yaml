@@ -17,6 +17,7 @@ images:
 - doc/gen/SOLARMINIBAT01A-battery_pack.svg
 mark: 50
 mod_scheme: doc/gen/SOLARMINIBAT01A-schematic.pdf
+status: 0
 tags:
 - mlab
 - mlab-module
