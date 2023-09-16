@@ -5,16 +5,16 @@ github_url: https://github.com/mlab-modules/SOLARMINIBAT01
 homepage: false
 image_title: doc/src/img/SOLARMINIBAT01_photo01.jpg
 images:
-- doc/src/img/SOLARMINIBAT01_photo01.jpg
 - doc/src/img/IMG_20220821_234056.jpg
 - doc/src/img/IMG_20220821_234041.jpg
+- doc/src/img/SOLARMINIBAT01_photo01.jpg
 - doc/gen/img/SOLARMINIBAT01A-bottom.png
 - doc/gen/img/SOLARMINIBAT01A-top.png
+- doc/gen/SOLARMINIBAT01A-battery_pack.svg
+- doc/gen/SOLARMINIBAT01A-schematic.svg
 - doc/gen/SOLARMINIBAT01A-power_output.svg
 - doc/gen/SOLARMINIBAT01A-fuel_gauge.svg
-- doc/gen/SOLARMINIBAT01A-schematic.svg
 - doc/gen/SOLARMINIBAT01A-power_input.svg
-- doc/gen/SOLARMINIBAT01A-battery_pack.svg
 mark: 50
 mod_scheme: doc/gen/SOLARMINIBAT01A-schematic.pdf
 status: 0
@@ -27,4 +27,4 @@ tags:
 - mlab-kicad
 - pcb
 title: SOLARMINIBAT01
-updated: '2023-09-11T01:03:47.289668+00:00'
+updated: '2023-09-16T16:38:36.509015+00:00'
