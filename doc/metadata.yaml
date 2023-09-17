@@ -1,5 +1,6 @@
 description: ' Small low-power photovoltaic MPPT module with LTO battery'
 github_branch: SOLARMINIBAT01A
+github_description: ' Small low-power photovoltaic MPPT module with LTO battery'
 github_repo: SOLARMINIBAT01
 github_url: https://github.com/mlab-modules/SOLARMINIBAT01
 homepage: false
@@ -27,4 +28,4 @@ tags:
 - mlab-kicad
 - pcb
 title: SOLARMINIBAT01
-updated: '2023-09-16T22:03:16.552657+00:00'
+updated: '2023-09-17T11:39:16.167515+00:00'
