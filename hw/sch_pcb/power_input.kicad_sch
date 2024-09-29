@@ -2747,7 +2747,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "335bcc2b-15eb-4c75-8d7f-140c83c3b291")
 		(property "Reference" "D10"
@@ -4315,7 +4315,7 @@
 		(fields_autoplaced yes)
 		(uuid "eba6a428-b832-49f5-9c79-0ba31f0da3a5")
 		(property "Reference" "R22"
-			(at 224.663 92.4365 0)
+			(at 224.663 92.1328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,8 +4323,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "110k"
-			(at 224.663 95.2116 0)
+		(property "Value" "115k"
+			(at 224.663 94.5571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4359,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5e3ffc4a1287502a33bad850"
+		(property "UST_ID" ""
 			(at 222.885 93.345 0)
 			(effects
 				(font
